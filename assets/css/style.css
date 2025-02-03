@@ -278,6 +278,7 @@ button {
     text-align: center;
     transition: background-color 0.3s;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .purple-btn {
