@@ -1,0 +1,485 @@
+/* connecting foxford fonts */
+
+@font-face {
+    font-display: auto;
+    font-family: foxford;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://static.ngcdn.ru/assets/fonts/TTFoxfordExtraBold.woff2) format("woff2"), url(https://static.ngcdn.ru/assets/fonts/TTFoxfordExtraBold.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://static.ngcdn.ru/assets/fonts/circe_light.woff2) format("woff2"), url(https://static.ngcdn.ru/assets/fonts/circe_light.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://static.ngcdn.ru/assets/fonts/circe_regular.woff2) format("woff2"), url(https://static.ngcdn.ru/assets/fonts/circe_regular.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Circe;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://static.ngcdn.ru/assets/fonts/circe_bold.woff2) format("woff2"), url(https://static.ngcdn.ru/assets/fonts/circe_bold.woff) format("woff")
+}
+
+/* end of connecting foxford fonts */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end of reset code */
+
+
+/* global project styles */
+
+:root {
+    --color-gray-0: #FFFFFF;
+    --color-gray-10: #EDEEF4;
+    --color-gray-20: #DADCE7;
+    --color-gray-30: #C9CCD8;
+    --color-gray-50: #A2A4AC;
+    --color-gray-60: #707277;
+    --color-gray-70: #595C64;
+    --color-gray-100: #000000;
+    --color-purple-10: #ECE1FF;
+    --color-purple-40: #8950E6;
+    --color-purple-50: #7A1AE3;
+    --color-red-50: #E71300;
+    --color-red-60: #C20C00;
+    --font-family: "Circe", sans-serif;
+    /* --second-family: "TT Foxford", sans-serif; */
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--color-gray-10);
+    color: var(--color-gray-70);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-gray-100);
+}
+
+.inside-container {
+    border-radius: 12px;
+    border: 1px solid var(--color-gray-20);
+    background-color: var(--color-gray-0);
+}
+
+p {
+    line-height: 130%;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--color-gray-60);
+}
+
+textarea,
+input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--color-gray-50);
+}
+
+textarea {
+    height: 138px;
+    resize: none;
+}
+
+input {
+    height: 45px;
+}
+
+::placeholder {
+    color: var(--color-gray-50);
+    font-size: 16px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: var(--color-gray-100);
+}
+
+button {
+    border: none;
+    border-radius: 56px;
+    line-height: 120%;
+    height: 44px;
+    width: 100%;
+    color: var(--color-gray-0);
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.purple-btn {
+    background: var(--color-purple-40);
+}
+
+.purple-btn:hover,
+.purple-btn:active,
+.purple-btn:focus {
+    background-color: var(--color-purple-50);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-gray-30);
+    color: var(--color-gray-100);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 110%;
+}
+
+th {
+    font-weight: 700;
+}
+
+/* uncomment this if you need different paddings like in figma */
+/*
+td {
+    padding: 16.5px 16px;
+}
+
+tr > td {
+    padding-top: 24px;
+}
+
+tr:first-child > td {
+    padding-top: 16px;
+}
+*/
+
+/* end of global project styles */
+
+
+/* style of main container on page */
+
+@media (max-width: 1589px) {
+    .create-pending-msg-main-container {
+        flex-direction: column-reverse !important;
+        justify-content: flex-end !important;
+        align-items: center;
+        margin-top: 20px !important;
+        margin-bottom: 20px;
+        min-width: 0px !important;
+        max-width: 100% !important;
+        gap: 20px !important;
+    }
+}
+
+.create-pending-msg-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 1590px;
+    min-height: 931px;
+    margin-top: 169px;
+    gap: 79px;
+}
+
+/* end of style of main container on page */
+
+
+/* styles for block for creating pending messages */
+
+@media (min-width: 1019px) and (max-width: 1589px) {
+    .create-pending-msg-inside-container {
+        position: static !important;
+        width: 979px !important;
+        align-self: center !important;
+    }
+}
+
+@media (max-width: 1018px) {
+    .create-pending-msg-inside-container {
+        position: static !important;
+        width: 95% !important;
+        align-self: center !important;
+    }
+}
+
+.create-pending-msg-inside-container {
+    width: 408px;
+    min-height: 447px;
+    padding: 27px 25px;
+    align-self: flex-start;
+}
+
+.create-pending-msg-header,
+.create-pending-msg-message {
+    margin-bottom: 8px;
+}
+
+.create-pending-msg-desc {
+    margin-bottom: 20px;
+}
+
+.create-pending-msg-seconds {
+    margin-bottom: 18px;
+}
+
+/* end of styles for block for creating pending messages */
+
+
+/* styles for block with table */
+
+@media (min-width: 1019px) and (max-width: 1589px) {
+    .pending-msg-table-inside-container {
+        position: static !important;
+        align-self: center !important;
+    }
+}
+
+@media (max-width: 1018px) {
+    .pending-msg-table-inside-container {
+        position: static !important;
+        width: 95% !important;
+        align-self: center !important;
+    }
+
+    .pending-message-table-container {
+        overflow-x: auto;
+    }
+
+    .pending-msg-table {
+        width: 923px;
+    }
+}
+
+.pending-msg-table-inside-container {
+    width: 979px;
+    min-height: 550px;
+    padding: 27px;
+    align-self: flex-start;
+}
+
+.pending-msg-table-header {
+    margin-bottom: 12px;
+}
+
+.pending-msg-table-desc {
+    margin-bottom: 16px;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    width: calc(501px + 16px + 4px);
+    padding-right: 4px;
+    /* change on 59px if you need to cat text like in figma */
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+    width: calc(200px + 16px + 4 px);
+    padding-right: 4px;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+    width: calc(150px + 16px * 2);
+}
+
+/* end of styles for block with table */
+
+
+/* дополнительный функционал, который захотелось добавить */
+.newRow {
+    background-color: var(--color-purple-10);
+}
+
+.red-btn {
+    background: var(--color-red-50);
+    height: 30px;
+    width: auto;
+    text-wrap-mode: nowrap;
+}
+
+.red-btn:hover,
+.red-btn:active,
+.red-btn:focus {
+    background-color: var(--color-red-60);
+}
+
+.pending-msg-table-headbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}

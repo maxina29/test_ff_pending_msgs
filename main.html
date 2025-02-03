@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="create-pending-msg-main-container test-task">
+        <!-- block for table start -->
+        <div class="pending-msg-table-inside-container inside-container Frame-2087331195">
+            <div class="pending-msg-table-headbar">
+                <h2 class="pending-msg-table-header header">Pending messages</h2>
+                <button onclick="clearAllMessages()" class="clear-btn red-btn">Clear All</button>
+            </div>
+            <p class="pending-msg-table-desc">This box displays the pending messages created earlier</p>
+            <div class="pending-message-table-container">
+                <table class="pending-msg-table Table" id="messagesTable">
+                    <thead class="pending-msg-thead Header">
+                        <tr>
+                            <th>Message</th>
+                            <th>Remains</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="pending-msg-tbody Rows" id="messagesTableBody">
+                        <!-- Строки будут добавляться через JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- block for table end -->
+
+        <!-- block for creating pending messages start -->
+        <div class="create-pending-msg-inside-container inside-container Group-198358344 Frame-2087331192">
+            <h2 class="create-pending-msg-header header">Create pending message</h2>
+            <p class="create-pending-msg-desc">Enter the message and the number of seconds after which the message will
+                be sent</p>
+            <form class="create-pending-msg-form" id="messagesForm">
+                <div class="create-pending-msg-message Input Frame-2085661078 Frame-567371444">
+                    <label for="message">Message</label>
+                    <textarea id="messageText" name="message" placeholder="Enter..." required></textarea>
+                </div>
+                <div class="create-pending-msg-seconds Input-32">
+                    <label for="seconds">Seconds</label>
+                    <input id="messageDelay" name="seconds" type="number" placeholder="Enter..." min="1" max="31622400"
+                        required>
+                </div>
+                <button type="submit" class="create-pending-msg-button purple-btn" id="messagesFormButton">Send
+                    message</button>
+            </form>
+        </div>
+        <!-- block for creating pending messages end -->
+    </div>
+    <script src="assets/js/messageProcessing.js"></script>
+</body>
+
+</html>
