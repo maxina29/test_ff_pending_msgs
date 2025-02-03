@@ -25,14 +25,14 @@
 
 Все эти изменения можно изменить или отменить
 
-<table style="padding:10px;">
+<table>
   <tr>
-    <td style="vertical-align: bottom; text-align: center;"><img src="./assets/images/a-lot-of-messages.jpg"  alt="1"> Большое количество сообщений </td>
-    <td style="vertical-align: bottom; text-align: center;"><img src="./assets/images/new-message.jpg"> Подсветка нового сообщения </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/a-lot-of-messages.jpg"></a> Большое количество сообщений </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/new-message.jpg"></a> Подсветка нового сообщения </td>
   </tr>
   <tr>
-    <td style="vertical-align: bottom; text-align: center;"><img src="./assets/images/mobile-view.jpg"> Вид на мобильных экранах </td>
-    <td style="vertical-align: bottom; text-align: center;"><img src="./assets/images/small-desktop-view.jpg"> Вид на небольших экранах </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/mobile-view.jpg"></a> Вид на мобильных экранах </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/small-desktop-view.jpg"></a> Вид на небольших экранах </td>
   </tr>
 </table>
 
