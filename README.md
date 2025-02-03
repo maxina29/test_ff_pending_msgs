@@ -6,7 +6,7 @@
 
 В таблице отображаются созданные ранее отложенные сообщения, статус отправки сообщения и время, которое осталось до его отправки с момента создания (`Sended`/`Pending`)
 
-[![Посмотреть в действии](./assets/images/total-view.jpg)](https://maxina29.github.io/test_ff_pending_msgs/index.html)
+[![Посмотреть в действии](./assets/images/total-view.jpg)](https://maxina29.github.io/test_ff_pending_msgs)
 
 ### Дополнения не по ТЗ
 
@@ -27,13 +27,13 @@
 
 <table>
   <tr>
-    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/a-lot-of-messages.jpg"></a> Большое количество сообщений </td>
-    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/new-message.jpg"></a> Подсветка нового сообщения </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs"><img src="./assets/images/a-lot-of-messages.jpg"></a> Большое количество сообщений </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs"><img src="./assets/images/new-message.jpg"></a> Подсветка нового сообщения </td>
   </tr>
   <tr>
-    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/mobile-view.jpg"></a> Вид на мобильных экранах </td>
-    <td><a href="https://maxina29.github.io/test_ff_pending_msgs/index.html"><img src="./assets/images/small-desktop-view.jpg"></a> Вид на небольших экранах </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs"><img src="./assets/images/mobile-view.jpg"></a> Вид на мобильных экранах </td>
+    <td><a href="https://maxina29.github.io/test_ff_pending_msgs"><img src="./assets/images/small-desktop-view.jpg"></a> Вид на небольших экранах </td>
   </tr>
 </table>
 
-[Посмотреть в действии](https://maxina29.github.io/test_ff_pending_msgs/index.html)
+[Посмотреть в действии](https://maxina29.github.io/test_ff_pending_msgs)
